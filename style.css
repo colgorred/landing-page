@@ -46,8 +46,8 @@ p {
   width: 100vw;
   top: 0px;
   z-index: 1300;
-  background-color: rgba(13, 15, 53, 0.6);
-  padding: 0 30px;
+  background-color: #011b41;
+  padding: 0 40px;
 }
 
 .navbar .container {
@@ -81,7 +81,7 @@ p {
 }
 
 .navbar a:hover {
-  color: #abceff;
+  color: #ffca00;
 }
 
 .rocket {
@@ -91,8 +91,10 @@ p {
 
 .section {
   display: flex;
-  padding: 80px;
-  gap: 40px;
+  padding: 60px 120px;
+  align-items: center;
+  gap: 120px;
+  width: 100vw;
 }
 .cockpit {
   width: 350px;
@@ -103,9 +105,84 @@ p {
 .hero {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .signup {
   width: 140px;
+}
+
+.section-2 {
+  background: #abceff;
+  color: #1f2937;
+  padding: 60px;
+  width: 100vw;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px;
+  padding-top: 45px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+.card img {
+  width: 100px;
+  border-radius: 10%;
+}
+
+.section-2 h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.section-3 {
+  padding: 60px 120px;
+  background: #fff;
+  width: 100vw;
+}
+.author {
+  text-align: right;
+  font-size: 14px;
+}
+
+.section-3 p {
+  color: #424c5a;
+  font-size: 36px;
+}
+
+p.author {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.section-4 {
+  padding: 60px 120px;
+  background: #abceff;
+  width: 100vw;
+}
+
+.cta {
+  background: #002e6e;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.bottom-btn {
+  width: 140px;
+}
+
+.cta-heading {
+  font-size: 24px;
+  font-weight: bold;
 }
